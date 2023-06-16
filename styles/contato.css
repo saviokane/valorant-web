@@ -32,6 +32,7 @@ body{
     opacity: 60%;
 }
 h1{
+    
     font-size: 66px;
     color: black;
 }
@@ -41,7 +42,7 @@ h2{
 }
 h3{
     font-size: 36px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 a{
     text-decoration: dotted;
