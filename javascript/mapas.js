@@ -1,7 +1,7 @@
 function AscentTrocarImagem() {
   var imagem = document.getElementById("ascent-click");
   if (imagem.src.match("./imagens/mapas/mapa-ascent-sem-nome.jpg")) {
-imagem.src = "./imagens/mapas/minimap-ascent";
+imagem.src = "./imagens/mapas/minimap-ascent.png";
 imagem.alt = "Minimapa Ascent";
 } else {
 imagem.src = "./imagens/mapas/mapa-ascent-sem-nome.jpg";

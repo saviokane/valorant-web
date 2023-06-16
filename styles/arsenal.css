@@ -76,6 +76,7 @@ aside{
     height: 96vh;
     position: fixed;
     right: 1.3%;
+    
 }
 aside a {
     padding-top: 10px;
@@ -94,7 +95,7 @@ aside a {
         margin: 20px;
         padding: 8px;
         border: 1px solid purple;
-        width: 1260px;
+        width: 65vw;
         height: 100px;
 }
 
