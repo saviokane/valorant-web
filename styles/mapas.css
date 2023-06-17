@@ -55,12 +55,6 @@ nav a{
     transition: transform 0.3s ease;
 }
 .mapas-img:hover{
-    image-resolution: 720px,740px;
-    height: 420px;
-    width: 740px;
-    background-repeat: no-repeat;
-    margin-left: 20px;
-    border-radius: 25px;
     transform: scale(1.1) translateY(-10px);
     cursor: crosshair;
 }

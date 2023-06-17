@@ -1,7 +1,7 @@
 
 body{
     filter: blur(1px);
-    background-image: url(../imagens/outros/all-character.jpg);
+    background-image: url(../imagens/personagens/all-character.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

@@ -48,6 +48,11 @@ img{
     max-width: 100%;
     display: block;
     border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease ;
+}
+img:hover{
+    transform: scale(1.1) translateY(-10px);
 }
 
 video{
@@ -55,6 +60,19 @@ video{
     display: block;
     border-radius: 20px;
     display: none;
+   
+    
+}
+video:hover{
+  max-width: 100%;
+  display: block;
+  border-radius: 20px;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 .flex{
