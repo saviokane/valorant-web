@@ -1,4 +1,4 @@
-body{
+.modoClaro{
     background-image: url("../imagens/background/home-wallpaper.jpeg");
     background-size: cover;
     background-attachment: fixed;
@@ -8,13 +8,24 @@ body{
     justify-content: center;
     align-items: center;
     overflow: auto;
-    /*flex-basis: ; testar depois para ver praq serve*/
+}
+
+.modoEscuro{
+    background-image: url("../imagens/background/background-home-dark.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
 }
 .conteiner{
     background-color: #ece7df;
     font-weight: bold;
-    height: 60vh;
-    width: 60vw;
+    height: 40vh;
+    width: 50vw;
     position: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +45,7 @@ legend h1{
     border-style: ridge;
     display: flex;
     justify-content: center;
-    color: #0f1923;
+    color: rgb(15, 25, 35);
     background-color: #ece7df;
     opacity: 100%;
     border-radius: 19px;
@@ -44,7 +55,7 @@ legend h1{
     
     position: relative;
     margin-top: 80px;
-    color: #0f1923;
+    color: rgb(15, 25, 35);
     font-size: 80px;
     text-decoration: coral;
     opacity: 90%;

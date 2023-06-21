@@ -6,32 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
     <title>MENU</title>
+
+    <script src="./javascript/index.js"></script>
     
 </head>
-<body>
-    <legend><h1>MENU</h1>
-    <div class="conteiner">
-        <a class="links" href="sobrejogo.html"alt="Sobre o jogo">Sobre o jogo</a><br> <!-- FEITO-->
+<body id="modo_claro" class="modoClaro">
+    <legend ><h1 id="menu">MENU</h1>
+    <div id="conteiner" class="conteiner">
+        <a class="links" href="personagens.html"alt="Personagens">Personagens</a><br> <!-- FEITO-->
         <a class="links" href="mapas.html"alt="Mapas">Mapas</a><br>                   <!-- FEITO-->
         <a class="links" href="arsenal.html"alt="Armas">Arsenal</a><br>               <!-- FEITO-->
-        <a class="links" href="personagens.html"alt="Personagens">Personagens</a><br>
-        <a class="links" href="dicas.html"alt="dicas para evoluir">Dicas</a><br> 
-        <a class="links" href="contato.html" alt="Contato" >Contato</a>               <!-- FEITO-->
+        <a class="links" href="contato.html" alt="Contato">Contato</a><br>            <!-- FEITO-->
+        <a class="links" href="sobrejogo.html"alt="Sobre o jogo">Sobre o jogo</a><br> <!-- FEITO-->
 
         <!--Preciso mudar os tamanhos das divs e elementos para vw e vh, pq com tamanho fixo, em tela menores, os elementos e bordas acabam
         atravessando umas as outras-->
 
         <!--Estudar sobre Cookie para colocar todas as páginas no modo escuro e salvar.-->
-
-        <!--Dicas básicas, intermediarias e avançadas-->
-        <!-- Em dicas colocar os pixel de alguns personagens tudo dentro de uma div>> flex-box >> warp.<-->
-        <!-- Colocar direcionamento para o tracker do valorant-->
-        <!-- Conversor de sensibilidade caso o jogar venha de outro FPS-->
     </div>
 
     <footer>
         <div>
-            
+
+            <button name="modo-escuro" onclick="trocarmodo()">MODO ESCURO</button>
+
         </div>
     </footer>
 </legend>
