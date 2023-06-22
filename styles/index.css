@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     overflow: auto;
+    transition: 2s;
 }
 
 .modoEscuro{
@@ -20,11 +21,13 @@
     justify-content: center;
     align-items: center;
     overflow: auto;
+    transition: 2s;
 }
+
 .conteiner{
     background-color: #ece7df;
     font-weight: bold;
-    height: 40vh;
+    height: 50vh;
     width: 50vw;
     position: flex;
     justify-content: center;
@@ -72,8 +75,39 @@ footer{
     height: 40px;
     background-color: black;
     color: white;
+    cursor: pointer;
     
 }
 
+.conteiner .load{
+    justify-content: center;
+}
+
+.load{
+    width: 40px;
+    height: 40px;
+    border: 15px solid rgb(209, 45, 81);
+    position: absolute;
+    top: 49vh;
+    right: 48vw;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: load 1s infinite linear;
+
+}
+
+
+@keyframes load {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+      
+  
+  
 
 
