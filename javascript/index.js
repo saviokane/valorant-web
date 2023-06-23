@@ -6,7 +6,7 @@ function trocarmodo(){
     const menu = document.getElementById('menu');
     const botao = document.getElementById('botao');
 
-        /**Se conter dentro do background a classe modo claro, ele remove e adiciona o modo escuro, e se clickar denovo ele retorna ao modo claro */
+        /**Se conter dentro do background a classe modo claro, ele remove e adiciona o modo escuro, e se clicar denovo ele retorna ao modo claro */
         if(background.classList.contains('modoClaro')){
         
             background.style.transition = "background 2s";
